@@ -10,10 +10,7 @@ git clone https://github.com/balc1/iphone13-price.git
 2. Install dependencies:  
 pip install -r requirements.txt
 
-3. Set up your **GROQ API Key** in Streamlit secrets:  
-mkdir -p ~/.streamlit echo "[secrets]" > ~/.streamlit/secrets.toml echo "GROQ_API_KEY='your-api-key-here'" >> ~/.streamlit/secrets.toml
-
-4. Run the Streamlit app:  
+3. Run the Streamlit app:  
 streamlit run iphone13.py
 
 ## Features  
